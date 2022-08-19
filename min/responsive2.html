@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>rwd2</title>
+<style type="text/css">
+    /*universal selector*/
+	  *{
+	     box-sizing: border-box;
+	  }
+     .flexparent{
+	     display:flex;
+		 flex-wrap: wrap;
+	 
+	 
+	 }
+	 .flexitem{
+	   border:1px solid #000;
+	   width:25%;
+	   height: 200px;
+	 }
+	 
+	 @media screen and (max-width:768px){
+	      .flexitem{
+		     width:50%;
+		  }
+	 
+	 }
+   
+     @media screen and (max-width:480px){
+	       .flexitem{
+		     width:100%;
+		  }
+	 }
+</style>
+
+</head>
+
+
+<body>
+
+<div class="flexparent">
+     <div class="flexitem"></div>
+	 <div class="flexitem"></div>
+	 <div class="flexitem"></div>
+	 <div class="flexitem"></div>
+
+ 
+
+
+
+
+</div>
+
+
+</body>
+
+
+
+</html>
